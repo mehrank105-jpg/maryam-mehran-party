@@ -1,0 +1,6 @@
+project_id = "maryam-mehran-party"
+
+[functions.party-rsvp]
+# Our handler verifies signed guest capabilities and a separate owner capability.
+# Publishable keys are not JWTs, and guests do not need Supabase Auth accounts.
+verify_jwt = false
